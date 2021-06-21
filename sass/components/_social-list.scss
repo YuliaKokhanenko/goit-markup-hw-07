@@ -9,11 +9,7 @@
     width: 20px;
     height: 20px;
 }
-.social-list-link:hover,
-.social-list-link:focus {
-    background: var(--accent-color);
-    fill: var(--text-decoration-color);
-}
+
 .social-list-link {
 display: flex;
 justify-content: center;
@@ -26,4 +22,10 @@ border-radius: 50%;
 transition-property: fill, background-color;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+&:hover,
+&:focus {
+    background: var(--accent-color);
+    fill: var(--text-decoration-color);
+}
 }
