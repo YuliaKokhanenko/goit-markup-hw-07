@@ -1,0 +1,32 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+ margin-top: 0;
+ margin-bottom: 0;
+ padding-left: 0;
+}
+
+img {
+ display: block;
+}
+
+.flex {
+ display: flex;
+ align-items: baseline;
+}
+.list {
+    list-style: none;
+}
+   
+.link {
+    text-decoration: none;
+}
+body {
+    font-family: var(--main-font);
+}
