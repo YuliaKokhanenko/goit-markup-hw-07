@@ -13,7 +13,7 @@
     margin-right: 50px;
 }
 
-.nav-link.item {
+.nav-link-item {
     color: var(--accent-color);
 }
 
@@ -29,12 +29,11 @@
    transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+    color: var(--accent-color);
 }
-.nav-link:hover,
-.nav-link:focus {
-   color: var(--accent-color);
 }
-
 
 .current {
  color: var(--secondary-color);
