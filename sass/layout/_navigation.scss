@@ -1,23 +1,23 @@
-.nav {
+.header-nav {
     display: flex;
     align-items: center;
 }
-.nav-list {
+.header__nav__list {
     display: flex;
     align-items: center;
     list-style: none;
     padding: 0;
     margin-left: auto;
 }
-.nav-item:not(:last-child) {
+.header__nav__item:not(:last-child) {
     margin-right: 50px;
 }
 
-.nav-link-item {
+.nav__link__item {
     color: var(--accent-color);
 }
 
-.nav-link {
+.nav__link {
    padding-top: 32px;
    padding-bottom: 32px;
    font-family: inherit;
@@ -39,7 +39,7 @@
  color: var(--secondary-color);
 }
 
-.current-item {
+.current__item {
 position: relative;
 color: var(--accent-color);
 }
