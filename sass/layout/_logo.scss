@@ -9,7 +9,7 @@
    margin-right: 70px;
  }
 
- .logo-link {
+ .logo__header{
    color: var(--secondary-color);
    margin-right: 93px;
    padding-top: 24px;
@@ -20,12 +20,12 @@
    color: var(--accent-color);
  }
  
-.nav-link-item {
+.nav__link__item {
     position: relative;
     color: var(--accent-color);
  }
 
- .nav-link-item::after {
+ .nav__link__item::after {
     content: '';
     position: absolute;
     width: 100%;
