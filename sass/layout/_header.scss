@@ -1,0 +1,13 @@
+.header {
+    width: 100%;
+    border-bottom: 1px solid var(--hero-button-color);
+    background: var(--text-decoration-color);
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+   
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
