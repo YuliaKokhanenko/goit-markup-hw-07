@@ -1,23 +1,31 @@
-.logo-link {
-    font-family: var(--secondary-font);
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: var(--secondary-color); 
-    display: inline-block;
-    margin-right: 70px;
+.logo {
+   font-family: var(--secondary-font);
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.19;
+   letter-spacing: 0.03em;
+   color: var(--secondary-color); 
+   display: inline-block;
+   margin-right: 70px;
+ }
+
+ .logo-link {
+   color: var(--secondary-color);
+   margin-right: 93px;
+   padding-top: 24px;
+   padding-bottom: 25px;
  }
     
- .logo-item {
-    color: var(--accent-color);
+ .logo__item {
+   color: var(--accent-color);
  }
  
-.item {
+.nav-link-item {
     position: relative;
     color: var(--accent-color);
  }
- .item::after {
+
+ .nav-link-item::after {
     content: '';
     position: absolute;
     width: 100%;
