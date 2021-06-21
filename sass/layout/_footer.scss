@@ -4,19 +4,21 @@
     padding-bottom: 60px;
   }
  
- .logo-link-footer {
-     font-family: 'Raleway', sans-serif;
+  .footer__logo-item-link {
+    color:var(--text-decoration-color);
+ }
+
+ .footer__logo {
+     /*font-family: 'Raleway', sans-serif;
      font-weight: 700;
      font-size: 26px;
      line-height: 1.19;
      letter-spacing: 0.03em;
-     color: var(--accent-color);
+     color: var(--accent-color);*/
+     color: var(--text-decoration-color);
+     margin-bottom: 20px;
  }
  
- .logo-item-link {
-    color:var(--text-decoration-color);
- }
-    
  .footer-address {
     font-family: inherit;
     font-style: normal;
@@ -56,12 +58,13 @@
      transition-property: color;
      transition-duration: 250ms;
      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
- }
- 
- .footer-address__contact:hover,
- .footer-address__contact:focus {
+     
+     &:hover,
+     &:focus {
      color: var(--accent-color);
  }
+ }
+ 
  
  .footer-title {
  margin-bottom: 20px;
@@ -138,3 +141,74 @@
     width: 20px;
     height: 20px;
 }
+ 
+.footer-subscription-form {
+    display: flex;
+    margin-left: 93px;
+  }
+
+.footer-email-form {
+    display: block;
+  }
+  
+  .footer-subscription-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--text-decoration-color);
+    display: block;
+  }
+  
+  .footer-subscription-email {
+    width: 358px;
+    margin-top: 20px;
+    padding-left: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    color: var(--text-decoration-color);
+  }
+  
+  .button-subscription {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: var(--text-decoration-color);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 29px;
+    padding-right: 28px;
+    margin-left: 12px;
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: 1px solid var(--accent-color);
+    border-radius: 4px;
+    transition-property: background-color;
+    transition-duration: 1250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .button-subscription:hover,
+  .button-subscription:focus {
+    background-color: #188CE8;
+  }
+  
+  .icon-subscription {
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
+  }
