@@ -11,17 +11,18 @@
     rgba(47, 48, 58, 0.4)),
     url(../images/icons/Imgheader.jpg);
     background-size: cover;
+    background-position: center;
 }
 
-.section-box {
+/*.section-box {
     display: flex;
-}
+}*/
 
 .hero .container{
     text-align: center;
 }
 
-.hero-title {
+.hero__title {
    font-family: inherit;
    font-weight: 900;
    font-size: 44px;
@@ -35,7 +36,7 @@
 }
 
    /*Кнопка заказать услугу*/
-.hero-modal-btn {
+.hero__modal__btn {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border: transparent;
     border-radius: 4px;
@@ -52,9 +53,9 @@
     transition-property: background-color, box-shadow;
     transition-duration: 1150ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-   
-.modal-btn:hover,
-.modal-btn:focus {
+    &:hover,
+    &:focus {
    fill:var(--accent-color);
 }
+}
+   
